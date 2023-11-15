@@ -11,11 +11,19 @@ There are three header files and three .cpp files that contain different classes
     
 ## TwoDayPackage.h
     * Contains the class declaration and prototype componenents of the class TwoDayPackage.
+    * The class TwoDayPackage is a child class of Package.
+    
 ## TwoDayPackage.cpp
-    *
+    * Uses and expands upon the contructors and methods from Package.
+    * Adds aspects that would relate to a package that would be expedited to two days delivery.
+    
 ## OvernightPackage.h
     * Contains the class declaration and prototype componenents of the class OvernightPackage.
+    * The class Overnight Package is a child class of Package.
+    
 ## OvernightPackage.cpp
-    *
+    * Uses and expands upon the contructors and methods from Package.
+    * Adds aspects that would relate to a package that would be expedited to overnight delivery.
+    
 ## testPackages.cpp
-    *
+    * Makes use of all classes to create objects representing a regular package, two-day delivery package, and overnight delivery package.
